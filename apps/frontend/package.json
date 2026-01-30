@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "node lint.js"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -15,6 +15,10 @@
   "devDependencies": {
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
     "typescript": "^5.9.3"
   }
 }
