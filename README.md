@@ -1,3 +1,5 @@
+# **Skeleton für STRAPI und next.js** 
+
 # Install
 - docker desktop lokal installieren
 - node lokal installieren
@@ -14,10 +16,15 @@ docker compose up --build
 
 
 
-# bauen
-Möglichkeiten:
-- ```docker compose --build```
+# Kommandozeile
+## Bauen:
+- ```docker compose up --build```
 - ```docker compose build frontend```
 - ```docker compose build backend```
+- ```docker compose up```
+## Lint
+- ```npm run lint``` (im Frontendordner)
 
-```docker compose up```
+# UIs:
+- Frontend: http://localhost:3000/
+- Backend: http://localhost:1337/admin/
