@@ -17,7 +17,7 @@ docker compose up --build
 # bauen
 Möglichkeiten:
 - ```docker compose --build```
-- ```docker compose build backend```
+- ```docker compose build frontend```
 - ```docker compose build backend```
 
 ```docker compose up```
