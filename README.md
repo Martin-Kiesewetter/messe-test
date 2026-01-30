@@ -5,9 +5,9 @@
 
 0. kopiere "apps/backend/.env.example" zu nur ".env" und update die settings
 1. gehe in apps/backend:
-2. ´npm install`
+2. ```npm install```
 3. gehe in apps/backend:
-4. ´npm install`
+4. ```npm install```
 
 
 docker compose up --build
@@ -16,8 +16,8 @@ docker compose up --build
 
 # bauen
 Möglichkeiten:
-´docker compose --build´
-´docker compose build backend´
-´docker compose build backend´
+- ```docker compose --build```
+- ```docker compose build backend```
+- ```docker compose build backend```
 
-docker compose up
+```docker compose up```
