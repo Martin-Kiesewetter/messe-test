@@ -3,7 +3,8 @@ services:
     build: ./apps/backend
     ports:
       - "1337:1337"
-
+    env_file:
+      - ./apps/backend/.env
   frontend:
     build: ./apps/frontend
     ports:

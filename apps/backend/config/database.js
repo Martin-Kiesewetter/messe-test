@@ -1,4 +1,4 @@
-export default ({ env }) => ({
+module.exports = ({ env }) => ({
   connection: {
     client: "sqlite",
     connection: {
