@@ -1,3 +1,7 @@
+> [!CAUTION]
+> Nur zur Demonstration für einen Freund - nicht benutzen
+
+
 # **Skeleton für STRAPI und next.js** 
 
 # Install
